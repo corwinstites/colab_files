@@ -70,7 +70,7 @@ class MyHyperModel(kt.HyperModel):
         return model
 
 
-def optimize_hyperparams(dir, train_tuple,valid_tuple,epochs=2):
+def optimize_hyperparams(dir, train_tuple,valid_tuple,epochs=200):
 
     """
     Optimizes hyperparameters for the feed forward neural network
